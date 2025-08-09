@@ -1,0 +1,29 @@
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    gap: 3rem;
+}
+.bg{
+    background-color: rgb(185, 122, 122);
+}
+
+#font-color{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+#font-color:hover{
+    color: maroon;
+
+    font-weight: bold;
+    font-size: 25px;
+}
+h1{
+    font-size: 45px;
+     
+         color: maroon; 
+}
+.btn{
+     color: maroon; 
+     background-color: rgb(185, 122, 122);
+}
