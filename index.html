@@ -3,132 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="style.css">
+    <title>Shale Pizza</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-7.0.0-web/css/all.min.css">
 </head>
-<body>
-   <nav class="navbar navbar-expand-lg navbar-light bg">
-  <a class="navbar-brand" href="#" id="font-color">WATCHES</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="font-color">HOME <span class="sr-only">(current)</span></a>
+<body>
+
+    <header>
+        <a href="" ><img src="assets/images/logo.png" class="logo"></a>
+
+        <!-- <input type="checkbox" id="check">
+        <label for="check" class="menubar"><i class="fa-solid fa-bars"></i></label> -->
+        
+     <nav class="navbar">
+  <div class="navbar-top">
+    <div class="logo">
+   
+      <span>Shale<br>Pizza</span>
+    </div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+  </div>
+
+  <div class="nav-container">
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li class="dropdown"><a href="#">Menu</a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-sub"><a href="#">Pizzas</a>
+            <ul class="dropdown-submenu">
+              <li><a href="#">Afghani boti</a></li>
+              <li><a href="#">Malai boti</a></li>
+              <li><a href="#">Chicken fajita</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-sub"><a href="#">Garlic Breads</a>
+            <ul class="dropdown-submenu">
+              <li><a href="#">Chive garlic bread</a></li>
+              <li><a href="#">Onion garlic bread</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-sub"><a href="#">Beverages</a>
+            <ul class="dropdown-submenu">
+              <li><a href="#">Island glow</a></li>
+              <li><a href="#">Sunset splash</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-sub"><a href="#">Desserts</a>
+            <ul class="dropdown-submenu">
+              <li><a href="#">Fudgy brownies</a></li>
+              <li><a href="#">Cakey brownies</a></li>
+            </ul>
+          </li>
+        </ul>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="font-color">ABOUT US</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" id="font-color" data-toggle="dropdown" aria-expanded="false">
-        CATEGORY
-        </a>
-        <div class="dropdown-menu bg">
-          <a class="dropdown-item" href="#" id="font-color">ROLEX</a>
-          <a class="dropdown-item" href="#" id="font-color">SWISS</a>
-          <a class="dropdown-item" href="#" id="font-color">RADO</a>
-          
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="font-color">LOGIN</a>
-      </li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
-    <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
+
+
   </div>
 </nav>
+        
+        <div id="search"><input type="search" placeholder="Search Here"> </div>
+      
+    </header>
+    </div>
+    </div>
+       <section class="banner">
+            <div class="banner-content">
+                <h1 >Bold Flavours, Big Attitude</h1><br>
+                <p><b>Shale-Pizzasss — Your Ultimate Pizza Fix!</b> <br>
+Hungry? Shale-Pizzasss has got you covered with epic pizzas bursting with flavor. From classic Margherita to loaded meat lovers, every pizza is crafted with love and fresh ingredients. Crispy crusts, gooey cheese, and toppings piled high — it’s pizza done right. Order now and taste why Shale-Pizzasss is the talk of the town. Because life’s too short for boring pizza!</p>
+            </div>
+            <div class="img"><img src="./assets/images/banner.png" alt="" srcset=""></div>
+        </section>
 
-<div class="container-fluide mt-5">
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="slid1.jpg" class="d-block w-100" alt="..." height="500px">
-    </div>
-    <div class="carousel-item">
-      <img src="slid2.jpg" class="d-block w-100" alt="..." height="500px">
-    </div>
-    <div class="carousel-item">
-      <img src="slid3.jpg" class="d-block w-100" alt="..." height="500px">
-    </div>
-  </div>
- <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </button>
-</div>
-</div>
-<div class="container-fluide">
-  <div class="row">
-    <div class="col-12 mt-5">
-      <h1 class="text-center" >LATEST PRODUCT</h1>
-    </div>
-  </div>
-</div>
-
-<div class="card-deck">
-  <div class="card" style="border: none;">
-    <img src="slid1.jpg" class="card-img-top" alt="..." height="300px">
-    <div class="card-body">
-      <h5 class="card-title">RADO</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <button class="btn btn light btn">BUY NOW</button>
-    </div>
-  </div>
-  <div class="card" style="border: none;">
-    <img src="slid2.jpg" class="card-img-top" alt="..." height="300px">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-     <button class="btn btn light btn">BUY NOW</button>
-    </div>
-  </div>
-  <div class="card" style="border: none;">
-    <img src="slid3.jpg" class="card-img-top" alt="..." height="300px">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    <button class="btn btn light btn">BUY NOW</button>
-    </div>
-  </div>
-</div>
-
-<div class="card-deck">
-  <div class="card" style="border: none;">
-    <img src="slid1.jpg" class="card-img-top" alt="..." height="300px">
-    <div class="card-body">
-      <h5 class="card-title">RADO</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <button class="btn btn light btn">BUY NOW</button>
-    </div>
-  </div>
-  <div class="card" style="border: none;">
-    <img src="slid2.jpg" class="card-img-top" alt="..." height="300px">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-     <button class="btn btn light btn">BUY NOW</button>
-    </div>
-  </div>
-  <div class="card" style="border: none;">
-    <img src="slid3.jpg" class="card-img-top" alt="..." height="300px">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    <button class="btn btn light btn">BUY NOW</button>
-    </div>
-  </div>
-</div>
+    <script src="./assets/fontawesome-free-7.0.0-web/js/all.min.js"></script>
 </body>
 </html>
